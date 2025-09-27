@@ -32,6 +32,7 @@ public class SecurityConfig {
                 .requestMatchers(HttpMethod.GET, "/api/categories/**").permitAll()
                 .requestMatchers(HttpMethod.POST, "/api/appointments/**").permitAll()
                 .requestMatchers("/test/**").permitAll() // Test endpoints
+                .requestMatchers("/actuator/**").permitAll() // Monitoring endpoints
                 
                 // Admin endpoints - require authentication
                 .requestMatchers("/api/blogs/admin/**").hasRole("ADMIN")

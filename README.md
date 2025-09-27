@@ -2,7 +2,28 @@
 
 A Spring Boot application for Shodhan Ayurveda center providing APIs for clinic management, disease information, services, appointments, and blog management.
 
-## 🚀 Quick Start
+## ⚡ **Quick Start (2 minutes)**
+
+```bash
+# 1. Clone and enter directory
+git clone https://github.com/aman7011/shodhan-ayurveda-backend.git
+cd shodhan-ayurveda-backend
+
+# 2. Run the application (uses H2 database, no setup needed)
+./mvnw spring-boot:run
+
+# 3. Test it's working
+curl http://localhost:8080/api/clinics
+```
+
+**That's it!** 🎉 Your API is running at `http://localhost:8080`
+
+- **H2 Console**: http://localhost:8080/h2-console (JDBC URL: `jdbc:h2:mem:devdb`, User: `sa`)
+- **Admin Login**: username: `admin`, password: `admin123`
+
+📖 **Need detailed setup?** See [SETUP_GUIDE.md](SETUP_GUIDE.md)
+
+## 🚀 Detailed Setup
 
 ### Prerequisites
 - Java 17+
