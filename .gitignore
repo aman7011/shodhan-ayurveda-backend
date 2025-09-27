@@ -1,0 +1,66 @@
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### Security - Environment variables and secrets ###
+.env
+.env.local
+.env.production
+.env.staging
+application-local.properties
+application-secrets.properties
+secrets/
+credentials/
+*.key
+*.pem
+*.p12
+*.jks
+
+### Logs ###
+logs/
+*.log
+
+### Database files ###
+*.db
+*.sqlite
+
+### OS ###
+.DS_Store
+Thumbs.db
+
+### Temporary files ###
+*.tmp
+*.temp
+
+### Local development overrides ###
+application-dev-local.properties
