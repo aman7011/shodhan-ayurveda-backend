@@ -5,4 +5,4 @@ SET image_urls = '[
     "/images/clinics/doctor.jpg",
     "/images/clinics/clinic-board.jpg"
 ]'
-WHERE name = 'Shodhan Ayurveda Center';
+WHERE name = 'Shodhan Ayurved Center';
